@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 800px;
+    /* background-color: #808080; */
+}
+
+.contentLeft {
+    margin-left: 80px;
+    width: 75%;
+}
+
+.contentRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    /* background-color:black; */
+}
+
+.people1 {
+    margin-bottom: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.people2 {
+
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.danielClifford {
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    background-color: hsl(263, 55%, 52%);
+}
+
+.jonathanWalters {
+    border-radius: 10px;
+    width: 280px;
+    height: 320px;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.jeanetteHarmon {
+    border-radius: 10px;
+    width: 280px;
+    height: 320px;
+    background-color: white;
+}
+
+.patrickAbrams {
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    background-color: hsl(219, 29%, 14%);
+}
+
+.kiraWhittle {
+    margin-right: 40px;
+    width: 280px;
+    height: 670px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.profile {
+    color: white;
+    padding: 30px;
+    padding-bottom: 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.jonathanProfile {
+    margin-bottom: 20px;
+    color: white;
+    padding: 30px;
+    padding-bottom: 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.profile2 {
+    color: black;
+    padding: 30px;
+    padding-bottom: 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.picture {
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+.picture1 {
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid hsl(263, 100%, 71%);
+}
+
+.picture2 {
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid hsl(263, 55%, 52%);
+}
+
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.name p {
+    opacity: 50%;
+}
+
+.text {
+    Font-size: 13px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+}
+
+.text p {
+    margin-top: 20px;
+    opacity: 70%;
+}
+
+.text2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    Font-size: 13px;
+    margin: 40px;
+    margin-top: 20px;
+}
+
+.text2 p {
+    margin-top: 20px;
+    opacity: 70%;
+}
+
+.text3 {
+    Font-size: 13px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+}
+
+.text3 p {
+    margin-top: 20px;
+    opacity: 70%;
+}
+
+p {
+    line-height: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        flex-direction: column;
+        height: 100%;
+        margin-top: 100px;
+    }
+
+    .people1 {
+        flex-direction: column;
+        margin-bottom:20px;
+    }
+
+    .people2 {
+        flex-direction: column;
+    }
+
+    .danielClifford {
+        width: 375px;
+        height: 450px;
+    }
+
+    .jonathanWalters {
+        width: 375px;
+        height: 280px;
+    }
+
+    .jeanetteHarmon {
+        width: 375px;
+        height: 300px;
+    }
+
+    .patrickAbrams {
+        width: 375px;
+        height: 450px;
+    }
+
+    .kiraWhittle {
+        height:480px;
+        width: 370px;
+        margin:0;
+        margin-left:80px;
+        margin-top:20px;
+        margin-bottom:80px;
+    }
+    
+
+    .text {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+
+    .text p {
+        margin-top: 40px;
+    }
+
+    .contentRight{
+        flex-direction: column;
+    }
+
+}
